@@ -1,0 +1,73 @@
+
+.container {
+  text-align: left;
+  margin: 40px auto;
+  width: 700px;
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  margin:0;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color:white;
+  padding: 30px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  display: block;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+}
+
+a {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  font-family: 'lora', serif;
+  text-decoration: none;
+  font-size:25px;
+  font-weight: lighter;
+  font-style: italic;
+  color:grey;
+}
+
+a:hover {
+background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
